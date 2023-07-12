@@ -34,39 +34,36 @@ alert(newresult);
 
 //Задание 7
 let num =1;
-let += +5;
-let -= -3;
-let *= 7;
-let /= 3;
+num += 5;
+num -= -3;
+num *= 7;
+num /= 3;
 num++;
 num--;
 alert(num);
 
 //Задание 8
 let age = prompt('Сколько вам лет');
-alert(age);
+age = Number(age);
 
 //Задание 9.0
-let user = prompt('Как тебя зовут');
-let user1 = Number("Сколько тебе лет");
-let user2 = Boolean("Любой текст");
-
+let user = {
+    name:'Daniil',
+    age: 25,
+    isAdmin:true,
+}
+console.log(user)
 //Задание 9.1
-let user3 = ["Город проживания"];
-alert(user3);
-
+user.Lastname = 'City of residence'
 //Задание 9.2
-let user4 = prompt('Как тебя зовут');
-let user5 = prompt('Сколько тебе лет');
-
+user.name = 'Viktoriya'
 //Задание 9.3
-let user6 =[""];
-alert(user6);
+delete user.Lastname
 
 //Задание 9.4 Не понял вот эту задачу что надо именно сделать?
 let info = prompt('Какую информацию хотите узнать о пользователе?');
-alert(user,user1,user3,user4,user5);
+alert(info.user);
 
 // Задание 10
-let Имя = prompt('Как тебя зовут?');
-alert(`Привет,${Имя}'!'`);
+let Programist = prompt('Как тебя зовут?');
+alert(`Привет,${Programist}'!'`);
